@@ -1,0 +1,7 @@
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\bin\DatabaseService.dll.config
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\bin\DatabaseService.dll
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\bin\DatabaseService.pdb
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\obj\Debug\DatabaseService.csproj.CoreCompileInputs.cache
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\obj\Debug\DatabaseService.dll
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\obj\Debug\DatabaseService.pdb
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\FinalProject_RMTApp\DatabaseService\obj\Debug\DatabaseService.csprojAssemblyReference.cache
