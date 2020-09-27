@@ -1,0 +1,10 @@
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\bin\Debug\Assignment1_windowsForm.exe.config
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\bin\Debug\Assignment1_windowsForm.exe
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\bin\Debug\Assignment1_windowsForm.pdb
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\HeonLee_Assignment1.csprojAssemblyReference.cache
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\HeonLee_Assignment1.Form1.resources
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\Assignment1_windowsForm.Properties.Resources.resources
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\HeonLee_Assignment1.csproj.GenerateResource.cache
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\HeonLee_Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\Assignment1_windowsForm.exe
+C:\Users\leedy\OneDrive\Documents\CsharpandDotNet\Assignment1_windowsForm\Assignment1_windowsForm\obj\Debug\Assignment1_windowsForm.pdb
