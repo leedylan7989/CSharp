@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51387/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51387/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51387/Service1.svc?xsd=xsd2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Connect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWithInt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWithInt" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWithInt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWithIntResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWithString_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWithString" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWithString_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWithStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTransactionBuy_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTransactionBuy" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTransactionBuy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTransactionBuyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWithField_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWithField" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWithField_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWithFieldResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_execute_InputMessage">
+    <wsdl:part name="parameters" element="tns:execute" />
+  </wsdl:message>
+  <wsdl:message name="IService1_execute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:executeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWithDouble_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWithDouble" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWithDouble_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWithDoubleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Connect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Connect" message="tns:IService1_Connect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ConnectResponse" message="tns:IService1_Connect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWithInt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWithInt" message="tns:IService1_SelectWithInt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWithIntResponse" message="tns:IService1_SelectWithInt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWithString">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWithString" message="tns:IService1_SelectWithString_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWithStringResponse" message="tns:IService1_SelectWithString_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTransactionBuy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertTransactionBuy" message="tns:IService1_InsertTransactionBuy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertTransactionBuyResponse" message="tns:IService1_InsertTransactionBuy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteByID" message="tns:IService1_DeleteByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteByIDResponse" message="tns:IService1_DeleteByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWithField">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateWithField" message="tns:IService1_UpdateWithField_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateWithFieldResponse" message="tns:IService1_UpdateWithField_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/execute" message="tns:IService1_execute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/executeResponse" message="tns:IService1_execute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWithDouble">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateWithDouble" message="tns:IService1_UpdateWithDouble_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateWithDoubleResponse" message="tns:IService1_UpdateWithDouble_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Connect">
+      <soap:operation soapAction="http://tempuri.org/IService1/Connect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWithInt">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWithInt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWithString">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWithString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTransactionBuy">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertTransactionBuy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWithField">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateWithField" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <soap:operation soapAction="http://tempuri.org/IService1/execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWithDouble">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateWithDouble" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:51387/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
